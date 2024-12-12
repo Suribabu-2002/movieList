@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie updates</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="search">
+        <select name="rating" id="ratingSort">
+            <option value="all">All</option>
+            <option value="desc">Descending</option>
+            <option value="asc">Ascending</option>
+        </select>
+        <select name="Genre" id="genre">
+            <option value="all">Filter by genre</option>
+            <option value="Drama">Drama</option>
+            <option value="Action">Action</option>
+            <option value="Crime">Crime</option>
+            <option value="Sci-Fi">Sci-Fi</option>
+            <option value="Fantasy">Fantasy</option>
+            <option value="Animation">Animation</option>
+            <option value="War">War</option>
+            <option value="Thriller">Thriller</option>
+
+        </select>
+        <input type="text" class="searchTitle" oninput="searchByTitle()" placeholder="Search by movie title">
+    </div>
+    <div class="container">
+
+    </div>
+</body>
+</html>
+<script src="script.js"></script>

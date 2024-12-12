@@ -1,0 +1,39 @@
+body{
+    background-color: #f0f0f0;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    max-height: 300px;
+    padding: 20px;
+}
+.card{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 8px;
+    border: 1px solid black;
+    background-color: white;
+}
+img{
+    background-color: aliceblue;
+    height: 250px;
+    width: 100%;
+    border-radius: 8px;
+}
+p:nth-child(2){
+    font-weight: bold;
+}
+
+#ratingSort,#genre,.searchTitle{
+    padding:6px 10px;
+    border: none;
+    background-color: rgb(191, 219, 245);
+    border-radius: 8px;
+    margin: 0 10px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
